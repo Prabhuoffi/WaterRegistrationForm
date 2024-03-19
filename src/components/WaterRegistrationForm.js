@@ -23,10 +23,10 @@ function WaterRegistrationForm() {
 
     emailjs
       .sendForm(
-        "service_h4d47bb",
-        "template_hp721j8",
+        "Your-email-service",
+        "Your-template-id",
         e.target,
-        "BPl7ojs25TN0EKZ3Z"
+        "Your-public-key"
       )
       .then(
         () => {
